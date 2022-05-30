@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* remove */
+    height: 50px;
 }
 
 .container {
     width: 1070px;
     max-width: 100%;
     margin: 0 auto;
+}
+
+.headerSection {
+    margin-bottom: 40px;
 }
 
 .bg-1 {
@@ -22,4 +28,49 @@
     color: aliceblue;
     background-color: rebeccapurple;
     border: 1px solid white;
+}
+
+.bg-3 {
+    width: 100%;
+    color: aliceblue;
+    background-color: tomato;
+    border: 1px solid white;
+}
+
+.bg-4 {
+    width: 100%;
+    color: aliceblue;
+    background-color: greenyellow;
+    border: 1px solid white;
+}
+
+.bg-5 {
+    width: 100%;
+    color: aliceblue;
+    background-color: firebrick;
+    border: 1px solid white;
+}
+
+.bg-6 {
+    width: 100%;
+    color: aliceblue;
+    background-color: royalblue;
+    border: 1px solid white;
+}
+
+
+/* TODO repair inner box */
+.nested-bg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: turquoise; */
+}
+
+.centerSection {
+    margin-top: 40px;
+}
+
+.footerSection {
+    margin-top: 40px;
 }
