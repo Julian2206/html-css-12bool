@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1070px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.bg-1 {
+    width: 100%;
+    color: aliceblue;
+    background-color: blue;
+    border: 1px solid white;
+}
+
+.bg-2 {
+    width: 100%;
+    color: aliceblue;
+    background-color: rebeccapurple;
+    border: 1px solid white;
+}
